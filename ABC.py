@@ -1,8 +1,4 @@
-def xoa_trung(a, b, c):
-    day_so = [a, b, c]
-    day_so = list(set(day_so))
-    day_so.sort()
-    return day_so
+xoa_trung = lambda a,b,c: sorted(set([a,b,c]))
 
 a = int(input("A = "))
 b = int(input("B = "))
